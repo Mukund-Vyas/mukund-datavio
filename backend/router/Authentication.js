@@ -1,6 +1,6 @@
 const express = require("express");
-const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken");
+const bcrypt = require("bcrypt"); // to encode and decode password
+const jwt = require("jsonwebtoken"); // for user authentication
 const user = require("../models/User");
 const User = require("../models/User");
 const router = express.Router();
